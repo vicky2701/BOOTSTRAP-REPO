@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<style>
+    #home{
+      
+      background:linear-gradient(to bottom right, purple,violet,black);
+    }
+    .i1{
+      height: 80vh;
+    }
+    .ig1:hover{
+      transform: scale(1.2,1.2);
+      transition-duration: 2s ;
+      transition-delay: 0s;    
+    }
+   
+    
+</style>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand fs-3 fw-bold "  href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+</header>
+ 
+  <main>
+    <section id="home"><br><br>
+      <div class="container" style="height: 100vh">
+        <div class="row home-bg mt-5" >
+          <div class="col-3 mt-5"></div>
+          <div class="col-6 mt-5"><img src="C:\Users\admin\Downloads\vasto-lardo.jpg" class="d-block w-100 ig1"></div>
+          <div class="col-3 mt-5"></div>
+        </div>
+        <div class="row">
+          <p class="fs-1 text-center fw-bold p-5">Hi, I am Vignesh J</p>
+          <p class="fs-1 text-center ">Full Stack Developer</p>
+        </div>
+      </div>
+    </section>  
+    <section id="about">
+      <div class="container">
+        <div class="col-3 mt-5"></div>
+          <div class="col-6 mt-5"><img src="C:\Users\admin\Downloads\vasto-lardo.jpg" class="d-block w-100"></div>
+          <div class="col-3 mt-5"></div>
+      </div>
+    </section>
+    <section id="certifications"><br><br><br>
+      <div class="container" >
+        <h1 class="fs-1 fw-bold">Certifications:</h1>
+        <div class="row col-2"></div>
+        <div class="row col-8"></div>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            <div class="carousel-item" data-bs-interval="2000" style="width: 1300px;">
+              <img src="C:\Users\admin\Downloads\Screenshot 2023-09-06 164109.png" class="d-block w-100 i1" alt="Portfolio1" height="">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000" style=" width: 1300px;">
+              <img src="C:\Users\admin\Downloads\Screenshot 2023-09-06 163919.png" class="d-block w-100 i1" alt="Portfolio2">
+            </div>
+            <div class="carousel-item active" data-bs-interval="2000" style=" width: 1300px;">
+              <img src="C:\Users\admin\Downloads\Screenshot 2023-09-06 163734.png" class="d-block w-100 i1" alt="Portfolio3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="row 2"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+
+  </footer>
+     
+    
+</body>
+</html>
